@@ -22,6 +22,7 @@
 #include<unordered_set>
 
 #include<algorithm>
+#include<functional>
 #include<random>
 
 using ::std::cin;
@@ -37,6 +38,8 @@ using ::std::unordered_map;
 using ::std::set;
 using ::std::unordered_set;
 
+using ::std::function;
+
 // C language common std
 #else
 
@@ -46,6 +49,11 @@ using ::std::unordered_set;
 #include<memory.h>
 #include<stdint.h>
 #include<limits.h>
+#include<stdbool.h>
+
+#include<stddef.h>
+
+#include<time.h>
 
 #endif // __c
 
