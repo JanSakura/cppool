@@ -22,6 +22,18 @@
     <Filter Include="头文件\macros">
       <UniqueIdentifier>{2a3864a9-5a75-4305-a716-91df3237a2eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\crypto">
+      <UniqueIdentifier>{a0c8c1f0-df86-49a0-b579-ae7eaeec49a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\crypto">
+      <UniqueIdentifier>{c994868f-4aa1-4eee-8cb4-ce14db80853d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\datastructure">
+      <UniqueIdentifier>{369fd210-b8fa-429b-ae4f-8e350b5df398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\datastructure\linkedlist">
+      <UniqueIdentifier>{e2a41a36-2fff-496b-b1c1-e91bcf1cd8b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -29,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="src\extension\extension.cpp">
       <Filter>源文件\extension</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\aes.cpp">
+      <Filter>源文件\crypto</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +55,12 @@
     </ClInclude>
     <ClInclude Include="include\macros\macros.h">
       <Filter>头文件\macros</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crypto\aes.h">
+      <Filter>头文件\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\datastructure\linkedlist\linkedlist.h">
+      <Filter>头文件\datastructure\linkedlist</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
