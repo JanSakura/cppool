@@ -34,6 +34,9 @@
     <Filter Include="头文件\datastructure\linkedlist">
       <UniqueIdentifier>{e2a41a36-2fff-496b-b1c1-e91bcf1cd8b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\controlflow">
+      <UniqueIdentifier>{afec2483-6590-44d1-832f-a1242263e453}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -43,6 +46,12 @@
       <Filter>源文件\extension</Filter>
     </ClCompile>
     <ClCompile Include="src\crypto\aes.cpp">
+      <Filter>源文件\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\padding.cpp">
+      <Filter>源文件\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\bit_operate.cpp">
       <Filter>源文件\crypto</Filter>
     </ClCompile>
   </ItemGroup>
@@ -61,6 +70,15 @@
     </ClInclude>
     <ClInclude Include="include\datastructure\linkedlist\linkedlist.h">
       <Filter>头文件\datastructure\linkedlist</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crypto\bit_operate.h">
+      <Filter>头文件\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\crypto\padding.h">
+      <Filter>头文件\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="include\controlflow\finally.hpp">
+      <Filter>头文件\controlflow</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,11 +2,15 @@
 #define _CPPOOL_AES_H_
 
 #include<stdint.h>
-
-class AES
+namespace cppool
 {
-	
-};
+	namespace crypto
+	{
+		class AES
+		{
 
+		};
+	}
+}
 #endif // _CPPOOL_AES_H_
 

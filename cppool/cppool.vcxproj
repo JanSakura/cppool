@@ -95,6 +95,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -112,6 +113,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,6 +131,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +149,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -157,10 +161,15 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\crypto\aes.cpp" />
+    <ClCompile Include="src\crypto\bit_operate.cpp" />
+    <ClCompile Include="src\crypto\padding.cpp" />
     <ClCompile Include="src\extension\extension.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\controlflow\finally.hpp" />
     <ClInclude Include="include\crypto\aes.h" />
+    <ClInclude Include="include\crypto\bit_operate.h" />
+    <ClInclude Include="include\crypto\padding.h" />
     <ClInclude Include="include\datastructure\linkedlist\linkedlist.h" />
     <ClInclude Include="include\extension\extension.h" />
     <ClInclude Include="include\macros\macros.h" />
