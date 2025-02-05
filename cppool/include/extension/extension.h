@@ -2,14 +2,17 @@
 #define _CPPOOL_EXTENSION_H_
 
 #ifdef __cplusplus
-namespace std
+namespace cppool
 {
+	namespace stdex
+	{
 #endif
-	extern const char* linefeed;
+		extern const char* linefeed;
 
 #ifdef __cplusplus
+	}
 }
-using std::linefeed;
 #endif // __cplusplus
+
 #endif // !_CPPOOL_EXTENSION_H_
 
